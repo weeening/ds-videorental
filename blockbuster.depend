@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1494795483 source:c:\users\wee ning\desktop\blockbuster\interface.cpp
+	"interface.hpp"
+	"record.hpp"
+	"queue.hpp"
+	"stack.hpp"
+	"customer.hpp"
+	<iostream>
+	<string>
+	<cstdlib>
+	<conio.h>
+	<regex>
+	<ctime>
+
+1494753509 c:\users\wee ning\desktop\blockbuster\interface.hpp
+	"record.hpp"
+	"customer.hpp"
+	<string>
+
+1494794202 c:\users\wee ning\desktop\blockbuster\record.hpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cstddef>
+	<cstdlib>
+	<string>
+	<new>
+	<regex>
+	"recordException.h"
+	"recordIndexOutOfRangeException.h"
+
+1494670052 c:\users\wee ning\desktop\blockbuster\recordexception.h
+	<stdexcept>
+	<string>
+
+1494670038 c:\users\wee ning\desktop\blockbuster\recordindexoutofrangeexception.h
+	<stdexcept>
+	<string>
+
+1494787542 source:c:\users\wee ning\desktop\blockbuster\main.cpp
+	<iostream>
+	<cstdlib>
+	"record.hpp"
+	"interface.hpp"
+	"customer.hpp"
+	<regex>
+
+1494689044 source:c:\users\wee ning\desktop\blockbuster\customer.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+
+1494788735 c:\users\wee ning\desktop\blockbuster\customer.hpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<cstdlib>
+
+1494794652 c:\users\wee ning\desktop\blockbuster\queue.hpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cstddef>
+	<string>
+	<new>
+	<regex>
+	"recordException.h"
+	"recordIndexOutOfRangeException.h"
+	"record.hpp"
+
+1494787401 c:\users\wee ning\desktop\blockbuster\stack.hpp
+	<iostream>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<new>
+	<regex>
+	"record.hpp"
+
